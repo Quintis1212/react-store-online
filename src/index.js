@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import { HashRouter as Router } from "react-router-dom";
 console.log(222)
 console.log(222)
-
+const func = () => {}
 ReactDOM.render(<Router><App /></Router>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
