@@ -10,6 +10,13 @@ const func = () => {
   console.log(9)
 }
 console.log(9) ;console.log(9)
+
+const func2 = () => {
+  console.log(9)
+  console.log(9)
+  console.log(9)
+}
+console.log(9) ;console.log(9)
 ReactDOM.render(<Router><App /></Router>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
