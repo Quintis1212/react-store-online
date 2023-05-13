@@ -18,8 +18,9 @@ function App() {
     <div className="App">
     <Navbar/>
     <Switch>
-      
-    <Route exact path="/" component={Magazine}  />
+  <span style="color:blue">blue</span> eyes.</p>
+     <span style="color:blue">blue</span> eyes.</p>
+  <Route exact path="/" component={Magazine}  />
     <Route exact path="/basket" component={Basket}  />
     <Route exact path="/item/:slug" component={ProductItem}  />
     <Redirect exact from="" to="/" />
