@@ -4,13 +4,19 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { HashRouter as Router } from "react-router-dom";
-console.log({})
-(()=>{
-console.log({})
-})()
-(()=>{
-console.log({})
-})()
+const func = () => {
+  console.log(9)
+  console.log(9)
+  console.log(9)
+}
+console.log(9) ;console.log(9)
+
+const func2 = () => {
+  console.log(9)
+  console.log(9)
+  console.log(9)
+}
+console.log(9) ;console.log(9)
 ReactDOM.render(<Router><App /></Router>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
